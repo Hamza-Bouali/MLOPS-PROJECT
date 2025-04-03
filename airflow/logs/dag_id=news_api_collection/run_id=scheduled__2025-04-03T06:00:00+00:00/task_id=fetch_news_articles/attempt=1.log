@@ -1,0 +1,366 @@
+[2025-04-03T13:54:44.431+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-03T13:54:44.450+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: news_api_collection.fetch_news_articles scheduled__2025-04-03T06:00:00+00:00 [queued]>
+[2025-04-03T13:54:44.461+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: news_api_collection.fetch_news_articles scheduled__2025-04-03T06:00:00+00:00 [queued]>
+[2025-04-03T13:54:44.461+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-03T13:54:44.485+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_news_articles> on 2025-04-03 06:00:00+00:00
+[2025-04-03T13:54:44.511+0000] {standard_task_runner.py:72} INFO - Started process 106495 to run task
+[2025-04-03T13:54:44.517+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'news_api_collection', 'fetch_news_articles', 'scheduled__2025-04-03T06:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/news_scrapper.py', '--cfg-path', '/tmp/tmpo5mp4qd7']
+[2025-04-03T13:54:44.519+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask fetch_news_articles
+[2025-04-03T13:54:44.575+0000] {task_command.py:467} INFO - Running <TaskInstance: news_api_collection.fetch_news_articles scheduled__2025-04-03T06:00:00+00:00 [running]> on host hamza-HP-ProBook-450-G8-Notebook-PC
+[2025-04-03T13:54:44.667+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='retail_mlops' AIRFLOW_CTX_DAG_ID='news_api_collection' AIRFLOW_CTX_TASK_ID='fetch_news_articles' AIRFLOW_CTX_EXECUTION_DATE='2025-04-03T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-03T06:00:00+00:00'
+[2025-04-03T13:54:44.668+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-03T13:54:44.669+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-03T13:54:44.669+0000] {logging_mixin.py:190} INFO - Current task name:fetch_news_articles state:running start_date:2025-04-03 13:54:44.451173+00:00
+[2025-04-03T13:54:44.670+0000] {logging_mixin.py:190} INFO - Dag name:news_api_collection and current dag run status:running
+[2025-04-03T13:54:44.670+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-03T13:54:51.820+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:54:51.821+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:54:51.822+0000] {base_pipeline.py:38} INFO - Processing document no-batteries-and-less-in-the-package-here-are-the-way-us-companies-are-trying-to-avoid-tariffs-profit-cuts
+[2025-04-03T13:54:51.862+0000] {document_converter.py:284} INFO - Finished converting document no-batteries-and-less-in-the-package-here-are-the-way-us-companies-are-trying-to-avoid-tariffs-profit-cuts in 6.14 sec.
+[2025-04-03T13:54:53.094+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:54:53.095+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:54:53.095+0000] {base_pipeline.py:38} INFO - Processing document u-s-cisa-adds-apache-tomcat-flaw-known-exploited-vulnerabilities-catalog.html
+[2025-04-03T13:54:59.342+0000] {document_converter.py:284} INFO - Finished converting document u-s-cisa-adds-apache-tomcat-flaw-known-exploited-vulnerabilities-catalog.html in 7.40 sec.
+[2025-04-03T13:55:05.389+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:05.390+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:05.390+0000] {base_pipeline.py:38} INFO - Processing document Manuka-Honey-Market-Valuation-is-Reaching-New-High-and-is-Set-to-Attain-valuation-of-USD-816-55-Million-by-2033-Astute-Analytica.html
+[2025-04-03T13:55:05.402+0000] {document_converter.py:284} INFO - Finished converting document Manuka-Honey-Market-Valuation-is-Reaching-New-High-and-is-Set-to-Attain-valuation-of-USD-816-55-Million-by-2033-Astute-Analytica.html in 5.96 sec.
+[2025-04-03T13:55:06.223+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:06.224+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:06.225+0000] {base_pipeline.py:38} INFO - Processing document E-Ink-and-AUO-Display-Plus-to-Form-Joint-Venture-for-Large-Sized-ePaper-Module-Production.html
+[2025-04-03T13:55:06.229+0000] {document_converter.py:284} INFO - Finished converting document E-Ink-and-AUO-Display-Plus-to-Form-Joint-Venture-for-Large-Sized-ePaper-Module-Production.html in 0.80 sec.
+[2025-04-03T13:55:06.868+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:06.869+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:06.869+0000] {base_pipeline.py:38} INFO - Processing document India-BPO-Services-Market-to-Hit-Valuation-of-US-139-35-Billion-by-2033-Astute-Analytica.html
+[2025-04-03T13:55:06.879+0000] {document_converter.py:284} INFO - Finished converting document India-BPO-Services-Market-to-Hit-Valuation-of-US-139-35-Billion-by-2033-Astute-Analytica.html in 0.63 sec.
+[2025-04-03T13:55:07.340+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:07.340+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:07.341+0000] {base_pipeline.py:38} INFO - Processing document Circana-s-Liquid-Supply-Chain-Solution-Creates-an-Inventory-Command-Center-for-Cross-Retailer-Insights.html
+[2025-04-03T13:55:07.344+0000] {document_converter.py:284} INFO - Finished converting document Circana-s-Liquid-Supply-Chain-Solution-Creates-an-Inventory-Command-Center-for-Cross-Retailer-Insights.html in 0.44 sec.
+[2025-04-03T13:55:07.962+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:07.962+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:07.963+0000] {base_pipeline.py:38} INFO - Processing document qvc-is-betting-on-tiktok-to-help-revive-its-live-shopping-business.html
+[2025-04-03T13:55:08.003+0000] {document_converter.py:284} INFO - Finished converting document qvc-is-betting-on-tiktok-to-help-revive-its-live-shopping-business.html in 0.65 sec.
+[2025-04-03T13:55:08.754+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:08.754+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:08.755+0000] {base_pipeline.py:38} INFO - Processing document a616185087.html
+[2025-04-03T13:55:09.371+0000] {document_converter.py:284} INFO - Finished converting document a616185087.html in 1.33 sec.
+[2025-04-03T13:55:10.130+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:10.130+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:10.131+0000] {base_pipeline.py:38} INFO - Processing document a616185087.html
+[2025-04-03T13:55:10.242+0000] {document_converter.py:284} INFO - Finished converting document a616185087.html in 0.79 sec.
+[2025-04-03T13:55:11.201+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:11.202+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:11.203+0000] {base_pipeline.py:38} INFO - Processing document vanguard-group-inc-grows-stock-position-in-gxo-logistics-inc-nysegxo
+[2025-04-03T13:55:11.213+0000] {document_converter.py:284} INFO - Finished converting document vanguard-group-inc-grows-stock-position-in-gxo-logistics-inc-nysegxo in 0.90 sec.
+[2025-04-03T13:55:22.800+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:22.800+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:22.801+0000] {base_pipeline.py:38} INFO - Processing document why-real-time-bidding-is-retail-medias-next-frontier
+[2025-04-03T13:55:22.847+0000] {document_converter.py:284} INFO - Finished converting document why-real-time-bidding-is-retail-medias-next-frontier in 11.61 sec.
+[2025-04-03T13:55:25.844+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:25.844+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:25.845+0000] {base_pipeline.py:38} INFO - Processing document a616185087.html
+[2025-04-03T13:55:25.913+0000] {document_converter.py:284} INFO - Finished converting document a616185087.html in 3.03 sec.
+[2025-04-03T13:55:26.724+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:26.725+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:26.725+0000] {base_pipeline.py:38} INFO - Processing document a616185087.html
+[2025-04-03T13:55:26.814+0000] {document_converter.py:284} INFO - Finished converting document a616185087.html in 0.84 sec.
+[2025-04-03T13:55:28.384+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:28.385+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:28.385+0000] {base_pipeline.py:38} INFO - Processing document the-richest-billionaire-in-each-country-2025
+[2025-04-03T13:55:28.466+0000] {document_converter.py:284} INFO - Finished converting document the-richest-billionaire-in-each-country-2025 in 1.58 sec.
+[2025-04-03T13:55:32.571+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:32.572+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:32.573+0000] {base_pipeline.py:38} INFO - Processing document tariffs-last-thing-apparel-industry-100055358.html
+[2025-04-03T13:55:32.642+0000] {document_converter.py:284} INFO - Finished converting document tariffs-last-thing-apparel-industry-100055358.html in 4.10 sec.
+[2025-04-03T13:55:33.959+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:33.960+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:33.960+0000] {base_pipeline.py:38} INFO - Processing document 119901522.cms
+[2025-04-03T13:55:33.979+0000] {document_converter.py:284} INFO - Finished converting document 119901522.cms in 1.22 sec.
+[2025-04-03T13:55:36.176+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:36.177+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:36.179+0000] {base_pipeline.py:38} INFO - Processing document beyond-chatbots-domain-specific-genai
+[2025-04-03T13:55:36.214+0000] {document_converter.py:284} INFO - Finished converting document beyond-chatbots-domain-specific-genai in 2.20 sec.
+[2025-04-03T13:55:38.093+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:38.093+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:38.094+0000] {base_pipeline.py:38} INFO - Processing document apple-backported-fixes-for-three-actively-exploited-flaws-to-older-devices.html
+[2025-04-03T13:55:44.908+0000] {document_converter.py:284} INFO - Finished converting document apple-backported-fixes-for-three-actively-exploited-flaws-to-older-devices.html in 8.62 sec.
+[2025-04-03T13:55:46.682+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:46.682+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:46.684+0000] {base_pipeline.py:38} INFO - Processing document companies-climate-plans-trump-earnings-greenhushing
+[2025-04-03T13:55:46.709+0000] {document_converter.py:284} INFO - Finished converting document companies-climate-plans-trump-earnings-greenhushing in 1.66 sec.
+[2025-04-03T13:55:47.103+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:47.104+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:47.104+0000] {base_pipeline.py:38} INFO - Processing document specsavers_oracle_ebs_standardization
+[2025-04-03T13:55:47.119+0000] {document_converter.py:284} INFO - Finished converting document specsavers_oracle_ebs_standardization in 0.38 sec.
+[2025-04-03T13:55:47.592+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:47.592+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:47.593+0000] {base_pipeline.py:38} INFO - Processing document United-States-Coffee-Market-Companies-Shares-Analysis-Report-2025-2033-Featuring-Nestle-Eight-O-Clock-Coffee-Company-Kraft-Heinz-Co-The-J-M-Smucker-Co-Fresh-Roasted-Coffee-More.html
+[2025-04-03T13:55:47.603+0000] {document_converter.py:284} INFO - Finished converting document United-States-Coffee-Market-Companies-Shares-Analysis-Report-2025-2033-Featuring-Nestle-Eight-O-Clock-Coffee-Company-Kraft-Heinz-Co-The-J-M-Smucker-Co-Fresh-Roasted-Coffee-More.html in 0.45 sec.
+[2025-04-03T13:55:48.184+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:48.184+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:48.185+0000] {base_pipeline.py:38} INFO - Processing document Latest-Global-Water-Filtration-Systems-Market-Size-Share-Worth-USD-35-18-Billion-by-2034-at-a-9-61-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-Forecast-Segme.html
+[2025-04-03T13:55:48.214+0000] {document_converter.py:284} INFO - Finished converting document Latest-Global-Water-Filtration-Systems-Market-Size-Share-Worth-USD-35-18-Billion-by-2034-at-a-9-61-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-Forecast-Segme.html in 0.59 sec.
+[2025-04-03T13:55:48.743+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:48.743+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:48.744+0000] {base_pipeline.py:38} INFO - Processing document Cloud-Services-Industry-Analysis-2025-2030-Global-Revenues-Set-to-Triple-Reaching-US-2-9-Trillion-by-2030-Asia-Pacific-s-Rapid-Industrialization-and-Digitalization-Drive-Explosive-.html
+[2025-04-03T13:55:48.761+0000] {document_converter.py:284} INFO - Finished converting document Cloud-Services-Industry-Analysis-2025-2030-Global-Revenues-Set-to-Triple-Reaching-US-2-9-Trillion-by-2030-Asia-Pacific-s-Rapid-Industrialization-and-Digitalization-Drive-Explosive-.html in 0.49 sec.
+[2025-04-03T13:55:49.297+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:49.298+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:49.299+0000] {base_pipeline.py:38} INFO - Processing document Rain-Gutters-Market-and-Companies-Analysis-Report-2025-Regulatory-Changes-and-Water-Conservation-Efforts-Fuel-Demand-for-Advanced-Rain-Gutter-Systems-Industry-to-Reach-11-39-Billio.html
+[2025-04-03T13:55:49.315+0000] {document_converter.py:284} INFO - Finished converting document Rain-Gutters-Market-and-Companies-Analysis-Report-2025-Regulatory-Changes-and-Water-Conservation-Efforts-Fuel-Demand-for-Advanced-Rain-Gutter-Systems-Industry-to-Reach-11-39-Billio.html in 0.53 sec.
+[2025-04-03T13:55:49.787+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:49.788+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:49.789+0000] {base_pipeline.py:38} INFO - Processing document U-S-Meat-Market-Review-2020-2024-Analysis-2025-and-Forecast-to-2029-Poultry-Led-Market-Growth-in-2024-While-Beef-Sees-New-Opportunities-from-Changing-Demographics.html
+[2025-04-03T13:55:49.799+0000] {document_converter.py:284} INFO - Finished converting document U-S-Meat-Market-Review-2020-2024-Analysis-2025-and-Forecast-to-2029-Poultry-Led-Market-Growth-in-2024-While-Beef-Sees-New-Opportunities-from-Changing-Demographics.html in 0.46 sec.
+[2025-04-03T13:55:51.187+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:51.188+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:51.189+0000] {base_pipeline.py:38} INFO - Processing document gxo-logistics-inc-nysegxo-position-decreased-by-sei-investments-co
+[2025-04-03T13:55:51.200+0000] {document_converter.py:284} INFO - Finished converting document gxo-logistics-inc-nysegxo-position-decreased-by-sei-investments-co in 1.38 sec.
+[2025-04-03T13:55:52.072+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:52.073+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:52.073+0000] {base_pipeline.py:38} INFO - Processing document spike-in-palo-alto-networks-scanner-activity-suggests-imminent-cyber-threats.html
+[2025-04-03T13:55:58.903+0000] {document_converter.py:284} INFO - Finished converting document spike-in-palo-alto-networks-scanner-activity-suggests-imminent-cyber-threats.html in 7.69 sec.
+[2025-04-03T13:55:59.794+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:55:59.795+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:55:59.796+0000] {base_pipeline.py:38} INFO - Processing document unipart-announces-record-performance-for-year-ending-31-december-2024
+[2025-04-03T13:55:59.832+0000] {document_converter.py:284} INFO - Finished converting document unipart-announces-record-performance-for-year-ending-31-december-2024 in 0.82 sec.
+[2025-04-03T13:56:00.849+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:56:00.850+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:56:00.851+0000] {base_pipeline.py:38} INFO - Processing document Unipart-announces-record-performance-for-year-ending-31-December-2024.html
+[2025-04-03T13:56:00.856+0000] {document_converter.py:284} INFO - Finished converting document Unipart-announces-record-performance-for-year-ending-31-December-2024.html in 0.97 sec.
+[2025-04-03T13:56:01.350+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:56:01.351+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:56:01.352+0000] {base_pipeline.py:38} INFO - Processing document weikfield-foods-ready-mixes-younger-customers-ipo-acquisitions-expansion-plans-11743564739023.html
+[2025-04-03T13:56:01.387+0000] {document_converter.py:284} INFO - Finished converting document weikfield-foods-ready-mixes-younger-customers-ipo-acquisitions-expansion-plans-11743564739023.html in 0.52 sec.
+[2025-04-03T13:56:02.274+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:56:02.274+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:56:02.275+0000] {base_pipeline.py:38} INFO - Processing document brokerages-set-cencora-inc-nysecor-target-price-at-280-20
+[2025-04-03T13:56:02.285+0000] {document_converter.py:284} INFO - Finished converting document brokerages-set-cencora-inc-nysecor-target-price-at-280-20 in 0.87 sec.
+[2025-04-03T13:56:02.811+0000] {document_converter.py:269} INFO - Going to convert document batch...
+[2025-04-03T13:56:02.812+0000] {document_converter.py:304} INFO - Initializing pipeline for SimplePipeline with options hash 4cc01982ae99b46a2a63fcda46c47c35
+[2025-04-03T13:56:02.812+0000] {base_pipeline.py:38} INFO - Processing document influencers-livestreams-and-vr-shopping-the-six-trends-that-ensure-a-competitive-advantage-in-e-commerce
+[2025-04-03T13:56:02.833+0000] {html_backend.py:136} ERROR - Error processing child from tag div: KeyError(-1)
+[2025-04-03T13:56:02.833+0000] {html_backend.py:136} ERROR - Error processing child from tag div: KeyError(-1)
+[2025-04-03T13:56:02.833+0000] {html_backend.py:136} ERROR - Error processing child from tag nav: KeyError(-1)
+[2025-04-03T13:56:02.834+0000] {html_backend.py:136} ERROR - Error processing child from tag div: KeyError(-1)
+[2025-04-03T13:56:02.834+0000] {html_backend.py:136} ERROR - Error processing child from tag body: KeyError(-1)
+[2025-04-03T13:56:02.834+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py", line 82, in fetch_news_articles
+    article['content_md']=DC.convert(source, max_num_pages=5).document.export_to_markdown()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 39, in wrapper_function
+    return wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 136, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 220, in convert
+    return next(all_res)
+           ^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 243, in convert_all
+    for conv_res in conv_res_iter:
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 278, in _convert
+    for item in map(
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 324, in _process_document
+    conv_res = self._execute_pipeline(in_doc, raises_on_error=raises_on_error)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 347, in _execute_pipeline
+    conv_res = pipeline.execute(in_doc, raises_on_error=raises_on_error)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/pipeline/base_pipeline.py", line 53, in execute
+    raise e
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/pipeline/base_pipeline.py", line 45, in execute
+    conv_res = self._build_document(conv_res)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/pipeline/simple_pipeline.py", line 41, in _build_document
+    conv_res.document = conv_res.input._backend.convert()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 119, in convert
+    self.walk(content, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 171, in analyze_tag
+    self.handle_list(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 281, in handle_list
+    parent=self.parents[self.level],
+           ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: -1
+[2025-04-03T13:56:02.853+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-04-03T13:56:02.853+0000] {logging_mixin.py:190} INFO - Task start:2025-04-03 13:54:44.451173+00:00 end:2025-04-03 13:56:02.852844+00:00 duration:78.401671
+[2025-04-03T13:56:02.854+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): fetch_news_articles> dag:<DAG: news_api_collection> dagrun:<DagRun news_api_collection @ 2025-04-03 06:00:00+00:00: scheduled__2025-04-03T06:00:00+00:00, state:running, queued_at: 2025-04-03 13:54:26.034155+00:00. externally triggered: False>
+[2025-04-03T13:56:02.854+0000] {logging_mixin.py:190} INFO - Failure caused by -1
+[2025-04-03T13:56:02.855+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=news_api_collection, task_id=fetch_news_articles, run_id=scheduled__2025-04-03T06:00:00+00:00, execution_date=20250403T060000, start_date=20250403T135444, end_date=20250403T135602
+[2025-04-03T13:56:02.886+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-03T13:56:02.887+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 3 for task fetch_news_articles (-1; 106495)
+Traceback (most recent call last):
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py", line 82, in fetch_news_articles
+    article['content_md']=DC.convert(source, max_num_pages=5).document.export_to_markdown()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 39, in wrapper_function
+    return wrapper(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/pydantic/_internal/_validate_call.py", line 136, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 220, in convert
+    return next(all_res)
+           ^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 243, in convert_all
+    for conv_res in conv_res_iter:
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 278, in _convert
+    for item in map(
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 324, in _process_document
+    conv_res = self._execute_pipeline(in_doc, raises_on_error=raises_on_error)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/document_converter.py", line 347, in _execute_pipeline
+    conv_res = pipeline.execute(in_doc, raises_on_error=raises_on_error)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/pipeline/base_pipeline.py", line 53, in execute
+    raise e
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/pipeline/base_pipeline.py", line 45, in execute
+    conv_res = self._build_document(conv_res)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/pipeline/simple_pipeline.py", line 41, in _build_document
+    conv_res.document = conv_res.input._backend.convert()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 119, in convert
+    self.walk(content, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 181, in analyze_tag
+    self.walk(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 139, in walk
+    raise exc_child
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 134, in walk
+    self.analyze_tag(cast(Tag, element), doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 171, in analyze_tag
+    self.handle_list(tag, doc)
+  File "/home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/docling/backend/html_backend.py", line 281, in handle_list
+    parent=self.parents[self.level],
+           ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: -1
+[2025-04-03T13:56:02.969+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-03T13:56:02.992+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-03T13:56:02.993+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

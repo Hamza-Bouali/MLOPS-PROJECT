@@ -1,0 +1,34 @@
+services:
+  postgres:  # Airflow needs a database
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  airflow-webserver:
+    build: 
+      context: .
+    volumes:
+      - ./dags:/opt/airflow/dags
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+
+  python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app/src  # Only mount source code
+      - ./data:/data
+    depends_on:
+      - postgres  # If your app needs DB
+
+volumes:
+  postgres_data:
