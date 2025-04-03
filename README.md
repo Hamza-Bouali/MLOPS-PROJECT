@@ -12,6 +12,16 @@ This project implements an MLOps pipeline for retail news analytics. It includes
 - `/Mlops/tests`: Contains test scripts, e.g. `news_tester.py`.
 - `/Mlops/README.md`: Project documentation.
 
+## Technical architectures: 
+### system workflow :
+```mermaid  
+     graph LR  
+         A[Sales Data] --> B[Forecast Model]  
+         C[News API] --> D[NLP Model]  
+         B & D --> E[Margin Calculator] --> F[FastAPI]
+         F--> E[monitoring UI]
+```  
+
 ## Setup and Usage
 1. **Environment Variables:**
    #### newsAPI
