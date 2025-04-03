@@ -139,3 +139,31 @@
 [2025-04-03T15:19:43.021+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:19:43.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-03T15:19:43.041+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:19:43.041+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2025-04-03T15:19:43.079+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.136 seconds
+[2025-04-03T15:21:12.132+0000] {processor.py:186} INFO - Started process (PID=43762) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:21:12.135+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-03T15:21:12.140+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:12.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:21:12.165+0000] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:21:12.214+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:12.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:21:12.237+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:12.237+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-03T15:21:12.270+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.148 seconds
+[2025-04-03T15:22:49.469+0000] {processor.py:186} INFO - Started process (PID=44681) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:22:49.471+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-03T15:22:49.475+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:49.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:22:49.499+0000] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:22:49.548+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:49.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:22:49.569+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:49.568+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-03T15:22:49.602+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.143 seconds
+[2025-04-03T15:24:25.794+0000] {processor.py:186} INFO - Started process (PID=45657) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:24:25.797+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-03T15:24:25.802+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:25.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:24:25.824+0000] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:24:25.870+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:25.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:24:25.891+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:25.891+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-03T15:24:25.930+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.144 seconds
+[2025-04-03T15:25:55.564+0000] {processor.py:186} INFO - Started process (PID=46530) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:25:55.567+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-03T15:25:55.571+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:55.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:25:55.592+0000] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-04-03T15:25:55.634+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:55.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:25:55.657+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:55.656+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-03T15:25:55.690+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.135 seconds

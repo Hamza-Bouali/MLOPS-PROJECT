@@ -251,3 +251,59 @@
 [2025-04-03T15:20:01.716+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:01.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-03T15:20:01.745+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:01.745+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
 [2025-04-03T15:20:01.774+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.446 seconds
+[2025-04-03T15:20:37.525+0000] {processor.py:186} INFO - Started process (PID=43441) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:20:37.527+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:20:37.531+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:37.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:20:46.509+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:20:46.529+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:46.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:20:46.569+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:46.568+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:20:46.612+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 9.096 seconds
+[2025-04-03T15:21:25.076+0000] {processor.py:186} INFO - Started process (PID=43877) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:21:25.078+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:21:25.081+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:25.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:21:33.475+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:21:33.498+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:33.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:21:33.533+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:33.532+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:21:33.563+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.496 seconds
+[2025-04-03T15:22:14.098+0000] {processor.py:186} INFO - Started process (PID=44357) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:22:14.099+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:22:14.103+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:14.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:22:22.408+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:22:22.429+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:22.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:22:22.464+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:22.463+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:22:22.493+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.404 seconds
+[2025-04-03T15:23:02.359+0000] {processor.py:186} INFO - Started process (PID=44801) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:23:02.361+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:23:02.365+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:23:02.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:23:11.159+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:23:11.178+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:23:11.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:23:11.214+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:23:11.213+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:23:11.250+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.901 seconds
+[2025-04-03T15:23:49.872+0000] {processor.py:186} INFO - Started process (PID=45269) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:23:49.875+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:23:49.878+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:23:49.878+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:23:58.975+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:23:58.991+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:23:58.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:23:59.026+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:23:59.025+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:23:59.057+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 9.194 seconds
+[2025-04-03T15:24:38.677+0000] {processor.py:186} INFO - Started process (PID=45777) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:24:38.680+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:24:38.684+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:38.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:24:47.319+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:24:47.338+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:47.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:24:47.371+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:47.371+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:24:47.404+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.736 seconds
+[2025-04-03T15:25:23.910+0000] {processor.py:186} INFO - Started process (PID=46203) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:25:23.912+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:25:23.916+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:23.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:25:32.599+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:25:32.615+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:32.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:25:32.649+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:32.648+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:25:32.678+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.779 seconds
+[2025-04-03T15:26:08.544+0000] {processor.py:186} INFO - Started process (PID=46656) to work on /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:26:08.546+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py for tasks to queue
+[2025-04-03T15:26:08.550+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:26:08.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:26:16.761+0000] {processor.py:925} INFO - DAG(s) 'news_api_collection' retrieved from /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py
+[2025-04-03T15:26:16.777+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:26:16.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:26:16.806+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:26:16.806+0000] {dag.py:4180} INFO - Setting next_dagrun for news_api_collection to 2025-04-03 12:00:00+00:00, run_after=2025-04-03 18:00:00+00:00
+[2025-04-03T15:26:16.835+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/airflow/dags/news_scrapper.py took 8.300 seconds

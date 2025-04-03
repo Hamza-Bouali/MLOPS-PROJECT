@@ -139,3 +139,31 @@
 [2025-04-03T15:19:44.434+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:19:44.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-03T15:19:44.450+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:19:44.450+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
 [2025-04-03T15:19:44.483+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.280 seconds
+[2025-04-03T15:21:13.412+0000] {processor.py:186} INFO - Started process (PID=43776) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:21:13.414+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-03T15:21:13.418+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:13.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:21:13.496+0000] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:21:13.678+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:13.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:21:13.695+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:21:13.695+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-03T15:21:13.726+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.324 seconds
+[2025-04-03T15:22:50.729+0000] {processor.py:186} INFO - Started process (PID=44692) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:22:50.732+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-03T15:22:50.735+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:50.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:22:50.811+0000] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:22:50.974+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:50.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:22:50.990+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:50.990+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-03T15:22:51.023+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.302 seconds
+[2025-04-03T15:24:27.061+0000] {processor.py:186} INFO - Started process (PID=45662) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:24:27.064+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-03T15:24:27.067+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:27.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:24:27.145+0000] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:24:27.324+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:27.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:24:27.342+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:27.342+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-03T15:24:27.374+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.323 seconds
+[2025-04-03T15:25:56.828+0000] {processor.py:186} INFO - Started process (PID=46533) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:25:56.830+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-03T15:25:56.834+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:56.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:25:56.900+0000] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-03T15:25:57.051+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:57.050+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:25:57.066+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:57.066+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-03T15:25:57.098+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.280 seconds

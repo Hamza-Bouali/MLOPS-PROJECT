@@ -181,3 +181,31 @@
 [2025-04-03T15:19:27.555+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:19:27.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-03T15:19:27.575+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:19:27.574+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2025-04-03T15:19:27.606+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.105 seconds
+[2025-04-03T15:20:55.590+0000] {processor.py:186} INFO - Started process (PID=43614) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:20:55.592+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-03T15:20:55.596+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:55.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:20:55.609+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:20:55.635+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:55.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:20:55.654+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:20:55.654+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-03T15:20:55.686+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.106 seconds
+[2025-04-03T15:22:33.909+0000] {processor.py:186} INFO - Started process (PID=44538) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:22:33.912+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-03T15:22:33.915+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:33.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:22:33.928+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:22:33.954+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:33.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:22:33.975+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:22:33.974+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-03T15:22:34.007+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.107 seconds
+[2025-04-03T15:24:09.184+0000] {processor.py:186} INFO - Started process (PID=45467) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:24:09.187+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-03T15:24:09.190+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:09.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:24:09.203+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:24:09.231+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:09.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:24:09.254+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:24:09.253+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-03T15:24:09.287+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.112 seconds
+[2025-04-03T15:25:40.226+0000] {processor.py:186} INFO - Started process (PID=46381) to work on /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:25:40.229+0000] {processor.py:914} INFO - Processing file /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-03T15:25:40.233+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:40.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:25:40.245+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-03T15:25:40.270+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:40.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-03T15:25:40.290+0000] {logging_mixin.py:190} INFO - [2025-04-03T15:25:40.289+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-03T15:25:40.322+0000] {processor.py:208} INFO - Processing /home/hamza/Documents/project/Mlops/myenv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.105 seconds
