@@ -1,3 +1,4 @@
 myenv
 .env
 minio/minio
+minio/raws/*
