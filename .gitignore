@@ -2,3 +2,7 @@ myenv
 .env
 minio/minio
 minio/raws/*
+airflow/logs
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/webserver_config.py
