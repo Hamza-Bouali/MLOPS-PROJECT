@@ -26,7 +26,7 @@ This project implements an MLOps pipeline for retail news analytics. It includes
      graph LR
         A{start} --> B[send request to newsAPI]
         B --> C{store the metadata} 
-        C--> |structered Data|X[POSTGRES ] -->F[END]
+        C--> |structered Data|X[JSON] -->F[END]
         C-->|Unstructered Data|D[Minito buckets]-->F
         W[wait]-->A
         F-->W
