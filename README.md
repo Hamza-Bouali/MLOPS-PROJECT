@@ -28,7 +28,7 @@ This project implements an MLOps pipeline for retail news analytics. It includes
         B --> C{store the metadata} 
         C--> |structered Data|X[POSTGRES ] -->F[END]
         C-->|Unstructered Data|D[Minito buckets]-->F
-        W[wait the event]-->A
+        W[wait]-->A
         F-->W
 ```
 
