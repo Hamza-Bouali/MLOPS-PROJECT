@@ -24,7 +24,7 @@ This project implements an MLOps pipeline for retail news analytics. It includes
 ##### News Scrapper
 ```mermaid
      graph LR
-        A{start} --> |triggered|B[send request to newsAPI]
+        A{start} --> B[send request to newsAPI]
         B --> C{store the metadata} 
         C--> |structered Data|X[POSTGRES ] -->F[END]
         C-->|Unstructered Data|D[Minito buckets]-->F
