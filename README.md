@@ -38,25 +38,25 @@ This project implements an MLOps pipeline for retail news analytics. It includes
    - create your API key from https://newsapi.org/
    #### Minio server
    ```bash
-   cd minio
-   wget https://dl.min.io/server/minio/release/linux-amd64/minio
-   chmod +x minio
-   ./minio server raws
+   $ cd minio
+   $ wget https://dl.min.io/server/minio/release/linux-amd64/minio
+   $ chmod +x minio
+   $ ./minio server raws
    ```
 
     #### apache-airflow:
    ```bash
-   pip install apache-airflow
-   airflow db init
-   airflow users create \
+   $ pip install apache-airflow
+   $ airflow db init
+   $ airflow users create \
     --username admin \
     --firstname First \
     --lastname Last \
     --role Admin \
     --email admin@example.com \
     --password admin
-   airflow scheduler
-   airflow webserver --port 8080# run it in other terminal  
+   $ airflow scheduler
+   $ airflow webserver --port 8080# run it in other terminal  
    
    ```
    
