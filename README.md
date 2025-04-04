@@ -20,7 +20,17 @@ This project implements an MLOps pipeline for retail news analytics. It includes
          C[News API] --> D[NLP Model]  
          B & D --> E[Margin Calculator] --> F[FastAPI]
          F--> E[monitoring UI]
-```  
+```
+##### News Scrapper
+```mermaid
+     graph LR
+        A{start} --> |triggered|B[send request to newsAPI]
+        B --> C{store the metadata} 
+        C--> |structered Data|X[POSTGRES ] -->F[END]
+        C-->|Unstructered Data|D[Minito buckets]-->F
+        W[wait the event]-->A
+        F-->W
+```
 
 ## Setup and Usage
 1. **Environment Variables:**
