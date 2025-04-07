@@ -56,7 +56,7 @@ This project implements an MLOps pipeline for retail news analytics. It includes
     --email admin@example.com \
     --password admin
    $ airflow scheduler
-   $ airflow webserver --port 8080# run it in other terminal  
+   $ airflow webserver --port 8080# (in other terminal)  
    
    ```
    
